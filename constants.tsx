@@ -5,7 +5,7 @@ export const APP_CONFIG = {
   title: "Nexus AI Research",
   subtitle: "AI 기반 통합 연구 지원 플랫폼",
   heroTitle: "연구의 한계를 넘어서다",
-  heroDescription: "복잡한 데이터 분석부터 논문 작성까지.\nNexus AI는 당신의 연구 여정을 혁신하는 지능형 파트너입니다.",
+  heroDescription: "복잡한 데이터 분석부터 논문 작성까지.\nAI를 통해 당신의 연구 여정을 혁신으로 이끄세요",
 };
 
 export const SERVICES: ServiceItem[] = [
