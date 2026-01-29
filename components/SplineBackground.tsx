@@ -22,7 +22,7 @@ const SplineBackground: React.FC = () => {
       <iframe
         src="https://my.spline.design/dnaparticles-OoosEyvcaQ10rSkQorunOlVX/"
         frameBorder="0"
-        className="w-full h-full object-cover scale-[1.9] origin-center"
+        className="w-full h-full object-cover scale-[1.5] origin-center"
         onLoad={() => setIsLoading(false)}
         title="Spline 3D Background"
       ></iframe>
