@@ -21,7 +21,7 @@ const App: React.FC = () => {
 
           <h1 className="text-6xl md:text-8xl font-bold tracking-tight leading-tight animate-fade-in-up" style={{ animationDelay: '100ms' }}>
             {APP_CONFIG.heroTitle.split(" ").map((word, i) => (
-                <span key={i} className={i === 1 ? "text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400" : ""}>
+                <span key={i} className={i === 1 ? "text-white" : "text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400"}>
                     {word}{" "}
                 </span>
             ))}
