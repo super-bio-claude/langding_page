@@ -27,13 +27,13 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, delay }) => {
         {service.description}
       </p>
       
-      <button 
+      <a
+        href={service.link}
         className="mt-auto inline-flex items-center gap-2 text-sm font-semibold text-black/80 group-hover:text-black transition-colors"
-        onClick={() => console.log(`Navigating to ${service.link}`)}
       >
         {service.buttonText}
         <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-      </button>
+      </a>
       
       {/* Decorative gradient blob */}
       <div className="absolute -inset-0.5 bg-gradient-to-r from-brand-500 to-purple-600 rounded-2xl opacity-0 group-hover:opacity-20 transition duration-500 blur-lg -z-10" />
