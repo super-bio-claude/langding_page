@@ -15,7 +15,7 @@ const App: React.FC = () => {
         
         {/* Header Text Section */}
         <div className="text-center max-w-5xl mb-20 space-y-8">
-          <div className="inline-block px-4 py-1.5 mb-4 text-sm font-semibold tracking-wider text-brand-500 uppercase bg-brand-900/30 rounded-full border border-brand-500/20 backdrop-blur-sm animate-fade-in">
+          <div className="inline-block px-4 py-1.5 mb-4 text-sm font-semibold tracking-wider text-white uppercase bg-brand-900/30 rounded-full border border-brand-500/20 backdrop-blur-sm animate-fade-in">
             {APP_CONFIG.subtitle}
           </div>
 
