@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const SplineBackground: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -11,7 +11,7 @@ const SplineBackground: React.FC = () => {
           <div className="w-8 h-8 border-4 border-brand-500 border-t-transparent rounded-full animate-spin"></div>
         </div>
       )}
-      
+
       {/* 
         Overlay to darken the background slightly for better text readability.
         Pointer events are passed through so user can interact with 3D model if needed.
@@ -19,12 +19,10 @@ const SplineBackground: React.FC = () => {
       */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/20 z-[1] pointer-events-none" />
 
-      <iframe 
-        src='https://my.spline.design/dnaparticles-OoosEyvcaQ10rSkQorunOlVX/' 
-        frameBorder='0' 
-        width='100%' 
-        height='100%'
-        className="w-full h-full object-cover"
+      <iframe
+        src="https://my.spline.design/dnaparticles-OoosEyvcaQ10rSkQorunOlVX/"
+        frameBorder="0"
+        className="w-full h-full object-cover scale-[1.9] origin-center"
         onLoad={() => setIsLoading(false)}
         title="Spline 3D Background"
       ></iframe>
