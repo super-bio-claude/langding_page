@@ -20,11 +20,10 @@ export const SERVICES: ServiceItem[] = [
   },
   {
     id: "analytics",
-    title: "지능형 데이터 해석",
-    description:
-      "복잡한 실험 데이터를 업로드하세요. 패턴 인식 알고리즘이 숨겨진 상관관계를 찾아냅니다.",
+    title: "의료 진단 보조 시스템",
+    description: "의료 영상 데이터를 AI로 분석하여 알맞은 진단을 지원합니다.",
     icon: Activity,
-    link: "#service-analytics",
+    link: "https://mediassist-frontend-4clk.onrender.com/login",
     buttonText: "데이터 분석하기",
   },
   {
